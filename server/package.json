@@ -1,0 +1,41 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "hemea's api",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "database:generate": "rm -f ./src/knex/database.db && touch database.db && ts-node ./database.ts",
+    "start": "ts-node-dev ./src/index.ts | pino-pretty -c",
+    "test": "jest --watchAll --verbose --coverage",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' --fix"
+  },
+  "dependencies": {
+    "@vscode/sqlite3":"5.0.7",
+    "better-sqlite3": "^7.5.0",
+    "fastify": "^3.27.1",
+    "fastify-cors": "^6.0.2",
+    "knex": "1.0.2",
+    "ts-node": "10.4.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.4.2",
+    "@types/jest": "~27.0.2",
+    "@types/node": "~16.11.6",
+    "@typescript-eslint/eslint-plugin": "~5.7.0",
+    "@typescript-eslint/parser": "~5.7.0",
+    "eslint": "~8.4.1",
+    "eslint-import-resolver-typescript": "2.7.1",
+    "eslint-config-prettier": "~8.3.0",
+    "eslint-plugin-jest": "~25.3.0",
+    "fastify-plugin": "3.0.1",
+    "jest": "~27.4.4",
+    "pino-pretty": "7.5.1",
+    "prettier": "~2.5.1",
+    "rimraf": "~3.0.2",
+    "ts-jest": "^27.1.3",
+    "ts-node-dev": "1.1.8",
+    "tsutils": "~3.21.0",
+    "typescript": "~4.5.3"
+  }
+}
