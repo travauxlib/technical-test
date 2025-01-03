@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/forti/technical-test/server2/bff/client/src/bff/client/DevisController.scala:8:48: not found: type DevisService[0m
+[0m[[0m[31merror[0m] [0m[0mclass DevisController @Inject() (devisService: DevisService, components: ControllerComponents) extends AbstractController(components) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

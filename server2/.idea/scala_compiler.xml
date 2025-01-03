@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="server2_2877" />
+    <profile name="sbt 2" modules="hemea-api,hemea-api.bffclient">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Xcheckinit" />
+        <parameter value="-Ywarn-unused:imports" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xlint:adapted-args,inaccessible" />
+        <parameter value="-Ywarn-dead-code" />
+      </parameters>
+    </profile>
+    <profile name="sbt 3" modules="hemea-api.devis">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-Xcheckinit" />
+        <parameter value="-Ywarn-unused:imports" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xlint:adapted-args,inaccessible" />
+        <parameter value="-Ywarn-dead-code" />
+      </parameters>
+    </profile>
+  </component>
+</project>

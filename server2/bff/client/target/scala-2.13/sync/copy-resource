@@ -1,0 +1,1 @@
+[[{"${BASE}/bff/client/conf/client.routes":["${BASE}/bff/client/target/scala-2.13/classes/client.routes"]},{"${BASE}/bff/client/target/scala-2.13/classes/client.routes":["${BASE}/bff/client/conf/client.routes"]}],{"${BASE}/bff/client/conf/client.routes":{"file":"file:///home/forti/technical-test/server2/bff/client/conf/client.routes","lastModified":1735925830464}}]

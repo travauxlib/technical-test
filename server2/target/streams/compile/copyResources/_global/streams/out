@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/forti/technical-test/server2/conf/application.conf,/home/forti/technical-test/server2/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/forti/technical-test/server2/conf/routes,/home/forti/technical-test/server2/target/scala-2.13/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/forti/technical-test/server2/conf/db/migration/default/V1__Initialize.sql,/home/forti/technical-test/server2/target/scala-2.13/classes/db/migration/default/V1__Initialize.sql)[0m
