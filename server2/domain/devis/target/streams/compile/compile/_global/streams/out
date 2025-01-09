@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/forti/technical-test/server2/domain/devis/src/devis/Devis.scala:10:24: not found: type Format[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val format: Format[Devis] = Json.format[Devis][0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/forti/technical-test/server2/domain/devis/src/devis/Devis.scala:10:40: not found: value Json[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val format: Format[Devis] = Json.format[Devis][0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

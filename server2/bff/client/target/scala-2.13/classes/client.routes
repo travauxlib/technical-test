@@ -1,0 +1,2 @@
+## Devis
+GET        /devis        @bff.client.DevisController.getAllDevis()
